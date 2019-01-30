@@ -8,7 +8,7 @@ main.addEventListener('click', function(event) {
 //const input = document.querySelector('input')
 //input.addEventListener('keydown', e => console.log(e.which))
 
-//hides letter e
+//hides letter g (keycode = 71) other related event properties are stopPropagation
 const input = document.querySelector('input')
  
 input.addEventListener('keydown', e => {
